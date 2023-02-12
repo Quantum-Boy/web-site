@@ -79,7 +79,7 @@ export default defineComponent({
 });
 </script>
 <style scoped>
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .card-container {
     width: 80vh;
     margin: .9vw;
