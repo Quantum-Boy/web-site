@@ -20,7 +20,7 @@ jobs:
       - name: build app
         run: yarn build
       - name: copy file via ssh password
-        uses: appleboy/scp-action@v0.0.1
+        uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
@@ -28,4 +28,6 @@ jobs:
           port: 22
           source: "dist/"
           target: ${{ secrets.REMOTE_TARGET}}
+ 
+
       
