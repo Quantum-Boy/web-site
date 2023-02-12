@@ -79,8 +79,17 @@ export default defineComponent({
 });
 </script>
 <style scoped>
-.card-container {
-  width: 18vw;
-  margin: .9vw;
+@media (max-width: 400px) {
+  .card-container {
+    width: 80vh;
+    margin: .9vw;
+  }
 }
+@media (min-width: 600px) {
+  .card-container {
+    width: 18vw;
+    margin: .9vw;
+  }
+}
+
 </style>
