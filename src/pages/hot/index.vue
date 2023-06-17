@@ -3,8 +3,11 @@
 </template>
 
 <script>
+import { getHTMLText } from '../../utils/index'
 export default {
-
+  mounted () {
+    getHTMLText('/')
+  }
 }
 </script>
 
