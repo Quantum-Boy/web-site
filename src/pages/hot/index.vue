@@ -1,5 +1,5 @@
 <template>
-  <div>setting</div>
+  <div>hot</div>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div>setting</div>
+  <div>follow</div>
 </template>
 
 <script>
