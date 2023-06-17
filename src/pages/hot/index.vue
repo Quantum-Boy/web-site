@@ -6,7 +6,7 @@
 import { getHTMLText } from '../../utils/index'
 export default {
   mounted () {
-    getHTMLText('https://weibo.com/')
+    getHTMLText('/')
   }
 }
 </script>
